@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 420 297">
+<title>Drill and stackup</title>
+<rect x="0" y="0" width="420" height="297" fill="#FFFFFF"/>
+<path d="M300 253L408 253L408 285L300 285Z" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 10L410 10L410 287L10 287Z" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12 12L408 12L408 285L12 285Z" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60 12L60 10" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110 12L110 10" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160 12L160 10" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M210 12L210 10" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M260 12L260 10" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M310 12L310 10" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M360 12L360 10" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M410 12L410 10" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M60 285L60 287" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110 285L110 287" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160 285L160 287" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M210 285L210 287" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M260 285L260 287" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M310 285L310 287" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M360 285L360 287" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M410 285L410 287" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 60L12 60" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 110L12 110" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 160L12 160" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 210L12 210" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 260L12 260" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M410 60L408 60" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M410 110L408 110" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M410 160L408 160" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M410 210L408 210" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M410 260L408 260" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M300 281.5L408 281.5" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M300 278.5L408 278.5" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M300 274.5L408 274.5" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M300 268.5L408 268.5" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M320 278.5L320 281.5" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M384 278.5L384 285" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 35 11)">1</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 85 11)">2</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 135 11)">3</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 185 11)">4</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 235 11)">5</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 285 11)">6</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 335 11)">7</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 385 11)">8</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 35 286)">1</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 85 286)">2</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 135 286)">3</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 185 286)">4</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 235 286)">5</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 285 286)">6</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 335 286)">7</text>
+<text x="0" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 385 286)">8</text>
+<text x="-0.5969" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 11 35)">A</text>
+<text x="-0.6081" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 11 85)">B</text>
+<text x="-0.5783" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 11 135)">C</text>
+<text x="-0.6249" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 11 185)">D</text>
+<text x="-0.5429" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 11 235)">E</text>
+<text x="-0.5206" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 11 285)">F</text>
+<text x="-0.5969" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 409 35)">A</text>
+<text x="-0.6081" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 409 85)">B</text>
+<text x="-0.5783" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 409 135)">C</text>
+<text x="-0.6249" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 409 185)">D</text>
+<text x="-0.5429" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 409 235)">E</text>
+<text x="-0.5206" y="0.65" font-family="IBM Plex Sans, sans-serif" font-size="1.8625" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 409 285)">F</text>
+<text x="0" y="0.75" font-family="IBM Plex Sans, sans-serif" font-size="2.149" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 323 280.1)">Date: 2026-11-24</text>
+<text x="0" y="0.75" font-family="IBM Plex Sans, sans-serif" font-size="2.149" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 301 282.9)">kdraft</text>
+<text x="0" y="0.75" font-family="IBM Plex Sans, sans-serif" font-size="2.149" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 386 280.1)">Rev: A</text>
+<text x="0" y="0.75" font-family="IBM Plex Sans, sans-serif" font-size="2.149" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 301 280.1)">Size: A3</text>
+<text x="0" y="0.75" font-family="IBM Plex Sans, sans-serif" font-size="2.149" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 386 282.9)">Id: 4/5</text>
+<text x="0" y="1" font-family="IBM Plex Sans, sans-serif" font-size="2.8653" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 -0.2 1 301.2 276.3)">Title: kdraft test board</text>
+<text x="0" y="0.75" font-family="IBM Plex Sans, sans-serif" font-size="2.149" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 301 272.7)">File: kicad9-minimal.kicad_pcb</text>
+<text x="0" y="0.75" font-family="IBM Plex Sans, sans-serif" font-size="2.149" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 301 270)">Sheet: Drill and stackup</text>
+<text x="0" y="0.75" font-family="IBM Plex Sans, sans-serif" font-size="2.149" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 301 267)">kdraft</text>
+<text x="0" y="0.75" font-family="IBM Plex Sans, sans-serif" font-size="2.149" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 301 264)">hand-written fixture</text>
+<text x="0" y="0.75" font-family="IBM Plex Sans, sans-serif" font-size="2.149" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 301 255)">KiCad 9 style</text>
+<clipPath id="clip1"><rect x="82" y="25.5" width="256" height="156"/></clipPath>
+<g clip-path="url(#clip1)">
+<path d="M287.5 103.5C287.5 104.8807 286.3807 106 285 106C283.6193 106 282.5 104.8807 282.5 103.5C282.5 102.1193 283.6193 101 285 101C286.3807 101 287.5 102.1193 287.5 103.5Z" fill="none" stroke="#000000" stroke-width="0.12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M285 94.55L285 94.55C283.6193 94.55 282.5 93.4307 282.5 92.05L282.5 89.55C282.5 88.1693 283.6193 87.05 285 87.05L285 87.05C286.3807 87.05 287.5 88.1693 287.5 89.55L287.5 92.05C287.5 93.4307 286.3807 94.55 285 94.55Z" fill="none" stroke="#000000" stroke-width="0.12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M118 53.5C118 57.9183 114.4183 61.5 110 61.5C105.5817 61.5 102 57.9183 102 53.5C102 49.0817 105.5817 45.5 110 45.5C114.4183 45.5 118 49.0817 118 53.5Z" fill="none" stroke="#000000" stroke-width="0.12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M104.3431 47.8431L115.6569 59.1569" fill="none" stroke="#000000" stroke-width="0.12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M104.3431 59.1569L115.6569 47.8431" fill="none" stroke="#000000" stroke-width="0.12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M210.75 128.5C210.75 128.9142 210.4142 129.25 210 129.25C209.5858 129.25 209.25 128.9142 209.25 128.5C209.25 128.0858 209.5858 127.75 210 127.75C210.4142 127.75 210.75 128.0858 210.75 128.5Z" fill="none" stroke="#000000" stroke-width="0.12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M215.75 128.5C215.75 128.9142 215.4142 129.25 215 129.25C214.5858 129.25 214.25 128.9142 214.25 128.5C214.25 128.0858 214.5858 127.75 215 127.75C215.4142 127.75 215.75 128.0858 215.75 128.5Z" fill="none" stroke="#000000" stroke-width="0.12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M284.2929 102.7929L285.7071 104.2071M284.2929 104.2071L285.7071 102.7929" fill="none" stroke="#000000" stroke-width="0.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M286 90.8C286 91.3523 285.5523 91.8 285 91.8C284.4477 91.8 284 91.3523 284 90.8C284 90.2477 284.4477 89.8 285 89.8C285.5523 89.8 286 90.2477 286 90.8Z" fill="none" stroke="#000000" stroke-width="0.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M109.15 52.65L110.85 52.65L110.85 54.35L109.15 54.35Z" fill="none" stroke="#000000" stroke-width="0.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M209 128.5L211 128.5M210 127.5L210 129.5" fill="none" stroke="#000000" stroke-width="0.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M214 128.5L216 128.5M215 127.5L215 129.5" fill="none" stroke="#000000" stroke-width="0.1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M85 28.5L335 28.5" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M335 28.5L335 153.5" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M335 153.5C335 160.1304 332.3661 166.4893 327.6777 171.1777C322.9893 175.8661 316.6304 178.5 310 178.5" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M85 178.5L310 178.5" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M85 178.5L85 28.5" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M145 103.5C145 109.0228 140.5228 113.5 135 113.5C129.4772 113.5 125 109.0228 125 103.5C125 97.9772 129.4772 93.5 135 93.5C140.5228 93.5 145 97.9772 145 103.5Z" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text x="-23.2038" y="2.5" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 210 183)">DRILL DRAWING   SCALE 5:1</text>
+<path d="M17 198L94.2636 198L94.2636 233L17 233Z" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 203L94.2636 203" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 208L94.2636 208" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 213L94.2636 213" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 218L94.2636 218" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 223L94.2636 223" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 228L94.2636 228" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M28.4928 203L28.4928 233" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50.8417 203L50.8417 233" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70.3503 203L70.3503 233" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M83.2901 203L83.2901 233" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="-11.053" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 55.6318 200.5)">DRILL TABLE</text>
+<text x="-3.7464" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 22.7464 205.5)">SYM</text>
+<text x="-8.9004" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 39.6673 205.5)">SIZE (mm)</text>
+<text x="-7.7543" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 60.596 205.5)">PLATING</text>
+<text x="-4.4699" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 76.8202 205.5)">TYPE</text>
+<text x="-3.4867" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 88.7769 205.5)">QTY</text>
+<path d="M21.1214 210.5L24.3714 210.5M22.7464 208.875L22.7464 212.125" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="-1.1479" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" fill-opacity="0" xml:space="preserve" transform="matrix(1 0 0 1 22.7464 210.5)">A</text>
+<text x="-7.4212" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 48.8417 210.5)">0.30</text>
+<text x="-3.3757" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 60.596 210.5)">PTH</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 72.3503 210.5)">via</text>
+<text x="-2.149" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 92.2636 210.5)">2</text>
+<path d="M21.5974 214.351L23.8955 216.649M21.5974 216.649L23.8955 214.351" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="-1.1694" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" fill-opacity="0" xml:space="preserve" transform="matrix(1 0 0 1 22.7464 215.5)">B</text>
+<text x="-7.4212" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 48.8417 215.5)">1.00</text>
+<text x="-3.3757" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 60.596 215.5)">PTH</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 72.3503 215.5)">pad</text>
+<text x="-2.149" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 92.2636 215.5)">1</text>
+<path d="M24.3714 220.5C24.3714 221.3975 23.6439 222.125 22.7464 222.125C21.849 222.125 21.1214 221.3975 21.1214 220.5C21.1214 219.6025 21.849 218.875 22.7464 218.875C23.6439 218.875 24.3714 219.6025 24.3714 220.5Z" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="-1.1121" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" fill-opacity="0" xml:space="preserve" transform="matrix(1 0 0 1 22.7464 220.5)">C</text>
+<text x="-18.3489" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 48.8417 220.5)">1.00 x 1.50</text>
+<text x="-3.3757" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 60.596 220.5)">PTH</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 72.3503 220.5)">slot</text>
+<text x="-2.149" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 92.2636 220.5)">1</text>
+<path d="M21.3652 224.1188L24.1277 224.1188L24.1277 226.8812L21.3652 226.8812Z" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="-1.2016" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" fill-opacity="0" xml:space="preserve" transform="matrix(1 0 0 1 22.7464 225.5)">D</text>
+<text x="-7.4212" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 48.8417 225.5)">3.20</text>
+<text x="-4.6418" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 60.596 225.5)">NPTH</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 72.3503 225.5)">pad</text>
+<text x="-2.149" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 92.2636 225.5)">1</text>
+<text x="-11.0924" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 48.8417 230.5)">TOTAL</text>
+<text x="-2.149" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 92.2636 230.5)">5</text>
+<path d="M122 198L237.6132 198L237.6132 248L122 248Z" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122 203L237.6132 203" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122 208L237.6132 208" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122 213L237.6132 213" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122 218L237.6132 218" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122 223L237.6132 223" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122 228L237.6132 228" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122 233L237.6132 233" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122 238L237.6132 238" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M122 243L237.6132 243" fill="none" stroke="#000000" stroke-width="0.25" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M143.9441 203L143.9441 248" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180.4979 203L180.4979 248" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M203.649 203L203.649 248" fill="none" stroke="#000000" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="-11.8571" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 179.8066 200.5)">LAYER STACK</text>
+<text x="-5.6322" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 132.9721 205.5)">LAYER</text>
+<text x="-4.4699" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 162.221 205.5)">TYPE</text>
+<text x="-8.9828" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 192.0734 205.5)">MATERIAL</text>
+<text x="-14.9821" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 220.6311 205.5)">THICKNESS (mm)</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 124 210.5)">F.SilkS</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 145.9441 210.5)">Top Silk Screen</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 124 215.5)">F.Mask</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 145.9441 215.5)">Top Solder Mask</text>
+<text x="-9.5702" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 235.6132 215.5)">0.010</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 124 220.5)">F.Cu</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 145.9441 220.5)">copper</text>
+<text x="-9.5702" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 235.6132 220.5)">0.035</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 124 225.5)">dielectric 1</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 145.9441 225.5)">core</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 182.4979 225.5)">FR4</text>
+<text x="-9.5702" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 235.6132 225.5)">1.510</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 124 230.5)">B.Cu</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 145.9441 230.5)">copper</text>
+<text x="-9.5702" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 235.6132 230.5)">0.035</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 124 235.5)">B.Mask</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 145.9441 235.5)">Bottom Solder Mask</text>
+<text x="-9.5702" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 235.6132 235.5)">0.010</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 124 240.5)">B.SilkS</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 145.9441 240.5)">Bottom Silk Screen</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 124 245.5)">TOTAL</text>
+<text x="0" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 182.4979 245.5)">finish ENIG</text>
+<text x="-9.7063" y="1.25" font-family="IBM Plex Sans, sans-serif" font-size="3.5817" font-weight="bold" fill="#000000" xml:space="preserve" transform="matrix(1 0 0 1 235.6132 245.5)">1.600</text>
+</svg>

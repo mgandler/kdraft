@@ -1,0 +1,28 @@
+[package]
+name = "kdraft-engine"
+description = "Sessions, command registry, undo log, item bounds, snapping, render pipeline"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dependencies]
+kdraft-sexpr.workspace = true
+kdraft-board.workspace = true
+kdraft-source.workspace = true
+kdraft-doc.workspace = true
+kdraft-sheet.workspace = true
+kdraft-plot.workspace = true
+kdraft-render.workspace = true
+kdraft-layout.workspace = true
+thiserror.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+uuid.workspace = true
+blake3.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+tempfile.workspace = true
+kdraft-plot = { workspace = true, features = ["test-support"] }

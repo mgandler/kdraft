@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "name": "Partial",
+    "version": 5
+  },
+  "board": {
+    "f_silks": "rgb(255, 255, 255)",
+    "f_mask": "rgba(10, 200, 10, 0.5)",
+    "copper": {
+      "f": "#C83434"
+    },
+    "future_key": "rgb(1, 2, 3)"
+  }
+}

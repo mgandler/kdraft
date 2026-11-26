@@ -1,0 +1,10 @@
+/target
+/fixtures-ext
+/s1-out
+.kdraft-cache/
+*.kicad_prl
+# Working files next to a checkout: your own drawings and exports, and
+# archives. Drawings that belong in the repository go into a subfolder.
+/*.kdraft
+/*.pdf
+/*.zip

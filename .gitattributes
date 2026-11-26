@@ -1,0 +1,9 @@
+* text=auto eol=lf
+fixtures/** -text
+*.kicad_pcb -text
+*.kdraft text eol=lf
+*.sh text eol=lf
+*.ttf binary
+*.kicad_wks -text
+assets/sheets/** -text
+*.png binary

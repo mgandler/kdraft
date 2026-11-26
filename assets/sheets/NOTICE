@@ -1,0 +1,11 @@
+default.kicad_wks
+
+KiCad's default drawing sheet, extracted verbatim (C string unescaped) from
+common/drawing_sheet/drawing_sheet_default_description.cpp in the KiCad
+source mirror (https://github.com/KiCad/kicad-source-mirror), tags 9.0.9 and
+10.0.8 (identical in both).
+
+Copyright (C) 1992-2013 Jean-Pierre Charras.
+Copyright The KiCad Developers, see AUTHORS.txt in the KiCad sources.
+Licensed under the GNU General Public License, version 2 or (at your option)
+any later version; distributed here as part of kdraft under GPL-3.0-or-later.

@@ -1,0 +1,19 @@
+[package]
+name = "kdraft-doc"
+description = "The .kdraft document model, reader, canonical writer and operations"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dependencies]
+kdraft-sexpr.workspace = true
+kdraft-board.workspace = true
+kdraft-layout.workspace = true
+kdraft-sheet.workspace = true
+thiserror.workspace = true
+uuid.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true

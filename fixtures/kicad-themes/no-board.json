@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "name": "Schematic only"
+  },
+  "schematic": {
+    "wire": "rgb(0, 150, 0)"
+  }
+}

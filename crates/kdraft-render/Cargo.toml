@@ -1,0 +1,23 @@
+[package]
+name = "kdraft-render"
+description = "Display list, native board rendering, plot import, tables, drawing sheet, SVG and PDF back ends"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+license.workspace = true
+
+[dependencies]
+kdraft-board.workspace = true
+kdraft-doc.workspace = true
+kdraft-sheet.workspace = true
+kdraft-plot.workspace = true
+kdraft-layout.workspace = true
+thiserror.workspace = true
+krilla.workspace = true
+ttf-parser.workspace = true
+tiny-skia.workspace = true
+
+[dev-dependencies]
+tiny-skia.workspace = true
+tempfile.workspace = true

@@ -1,0 +1,52 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/kdraft-sexpr",
+    "crates/kdraft-board",
+    "crates/kdraft-source",
+    "crates/kdraft-sheet",
+    "crates/kdraft-doc",
+    "crates/kdraft-plot",
+    "crates/kdraft-layout",
+    "crates/kdraft-render",
+    "crates/kdraft-engine",
+    "crates/kdraft-ui",
+    "crates/kdraft-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.92"
+publish = false
+license = "GPL-3.0-or-later"
+
+[workspace.dependencies]
+kdraft-sexpr = { path = "crates/kdraft-sexpr" }
+kdraft-board = { path = "crates/kdraft-board" }
+kdraft-source = { path = "crates/kdraft-source" }
+kdraft-doc = { path = "crates/kdraft-doc" }
+kdraft-sheet = { path = "crates/kdraft-sheet" }
+kdraft-plot = { path = "crates/kdraft-plot" }
+kdraft-layout = { path = "crates/kdraft-layout" }
+kdraft-render = { path = "crates/kdraft-render" }
+kdraft-engine = { path = "crates/kdraft-engine" }
+thiserror = "2"
+blake3 = "1"
+uuid = { version = "1", features = ["v4"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+proptest = "1"
+tempfile = "3"
+roxmltree = "0.21"
+krilla = { version = "0.8.2", default-features = false, features = ["raster-images"] }
+ttf-parser = "0.25"
+tiny-skia = { version = "0.12", default-features = false, features = ["std", "simd", "png-format"] }
+
+[profile.dev.package."*"]
+opt-level = 2
+
+[profile.test]
+opt-level = 1
