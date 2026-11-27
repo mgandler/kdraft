@@ -537,7 +537,9 @@ folder); nothing is sent anywhere.
 runs the editor without a window and rasterises egui's meshes in software
 (`crates/kdraft-ui/src/shot.rs`). Script steps: `{"click":[x,y]}`,
 `{"right_click":[x,y]}`, `{"double_click":[x,y]}`, `{"move":[x,y]}`,
-`{"drag":[[x0,y0],[x1,y1]],"hold":true}`, `{"key":"K","mods":"ctrl"}`,
+`{"drag":[[x0,y0],[x1,y1]],"hold":true}`, `{"press":[x,y]}`,
+`{"release":[x,y]}` (a drag recorded frame by frame, with `move` and
+`shot` steps in between), `{"key":"K","mods":"ctrl"}`,
 `{"text":"..."}`, `{"cmd":"name","args":{}}`, `{"ui":"fit_page"}`,
 `{"wait":ms}`, `{"settle":true}`, `{"shot":"name.png"}`.
 `--fake-kicad DIR` answers kicad-cli from recorded outputs (the SVG

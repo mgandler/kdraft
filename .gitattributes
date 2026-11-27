@@ -7,3 +7,5 @@ fixtures/** -text
 *.kicad_wks -text
 assets/sheets/** -text
 *.png binary
+*.cmd text eol=crlf
+*.gif binary

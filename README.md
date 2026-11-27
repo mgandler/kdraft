@@ -13,10 +13,33 @@ Altium Draftsman; the target is KiCad 9 and 10.
 > person specified the tool, made the decisions, ran it on real boards and
 > reported what was wrong. See [How it was written](#how-it-was-written).
 
-![The editor on the drill and stackup page of the repository's test board](docs/img/editor.png)
+![Opening a board file creates the drawing set: fabrication, assembly top and bottom, drill drawing with tables, bill of materials](docs/img/drawing-set.gif)
 
-An exported page (test board `fixtures/kicad10-minimal.kicad_pcb`, drawn
-without KiCad installed):
+## A short tour
+
+Callouts and dimensions snap to pads, holes and outline points and stay
+attached to the board:
+
+![Three numbered callouts and a dimension are placed, then the view is moved and they follow](docs/img/annotate.gif)
+
+Align, distribute, reorder pages:
+
+![Three items are selected, aligned and distributed; a page is dragged to a new place](docs/img/arrange.gif)
+
+Layer colours and themes:
+
+![The assembly view switches from black to kdraft's layer colours and KiCad's default theme; the editor switches to its dark theme](docs/img/colours.gif)
+
+The board in the animations is the
+[RoyalBlue54L Feather](https://www.crowdsupply.com/lords-boards/royalblue54l-feather)
+by Lord's Boards, one of KiCad's demo projects (see [Credits](#credits)).
+They were recorded with the editor's headless mode on a machine without
+KiCad, so the views are kdraft's own preview drawn from the board file;
+with `kicad-cli` installed the views are KiCad's plots.
+`scripts/readme-gifs/record.py` records them again.
+
+An exported page (test board `fixtures/kicad10-minimal.kicad_pcb`, also
+drawn without KiCad):
 
 ![Exported drill drawing with drill table and layer stack](docs/img/drill-page.png)
 
@@ -183,7 +206,10 @@ cargo clippy --workspace --all-targets -- -D warnings
 - Golden images of the renderer are regenerated with
   `KDRAFT_UPDATE_GOLDEN=1 cargo test -p kdraft-render`.
 - `kdraft-gui --screenshot out.png [--script steps.json] file` renders
-  the editor without a window; the first picture above was made this way.
+  the editor without a window. The animations above are made this way by
+  `scripts/readme-gifs/record.py` (Python 3 with Pillow, ffmpeg);
+  `scripts/readme-gifs/capture.cmd` captures the frames on Windows
+  without Python.
 
 | Crate | Purpose |
 | --- | --- |
@@ -223,6 +249,12 @@ texts in `fixtures/kicad-cli/` and the SVG plots in
 `fixtures/kicad-cli-svg/`, which `kicad-cli` produced from kdraft's own
 test board. KiCad's demo boards are downloaded by
 `scripts/fetch-fixtures.sh` and are not part of this repository.
+
+The animations in this file show drawings of the **RoyalBlue54L Feather**
+by Lord's Boards, licensed under the CERN Open Hardware Licence
+Version 2 - Permissive (CERN-OHL-P v2). The design files are in KiCad's
+source tree under `demos/royalblue54L_feather` (tag 10.0.8) and are not
+part of this repository.
 
 ### Libraries
 

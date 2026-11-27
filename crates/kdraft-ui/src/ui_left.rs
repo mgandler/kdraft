@@ -65,6 +65,15 @@ impl App {
         let mut menu_for: Option<usize> = None;
         let mut rename_start: Option<usize> = None;
         let mut list_rect = ui.available_rect_before_wrap();
+        let visible = list_rect;
+        // When another page becomes current (PageUp/PageDown, a command, a
+        // check that was clicked), its row is scrolled into view.
+        let seen_id = egui::Id::unique("pages-current-seen");
+        let seen: Option<usize> = ui.ctx().data(|d| d.get_temp::<usize>(seen_id));
+        let reveal = cur.is_some() && cur != seen;
+        if let Some(c) = cur {
+            ui.ctx().data_mut(|d| d.insert_temp(seen_id, c));
+        }
         egui::ScrollArea::vertical()
             .id_salt("pages-scroll")
             .auto_shrink([false, false])
@@ -103,6 +112,9 @@ impl App {
                         )
                     });
                     let selected = cur == Some(i);
+                    if selected && reveal {
+                        ui.scroll_to_rect(rect, None);
+                    }
                     let p = ui.painter();
                     if selected {
                         p.rect_filled(rect, CornerRadius::same(5), t.selected_row);
@@ -237,6 +249,7 @@ impl App {
             .iter()
             .map(|r| [r.min.x, r.min.y, r.max.x, r.max.y])
             .collect();
+        self.page_list = [visible.min.x, visible.min.y, visible.max.x, visible.max.y];
         if let Some(from) = self.page_drag.dragging() {
             let p = ui.ctx().pointer_interact_pos();
             if let Some(p) = p {

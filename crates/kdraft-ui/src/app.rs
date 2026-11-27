@@ -126,6 +126,8 @@ pub struct App {
     /// frame (screen points, `[x0, y0, x1, y1]`).
     pub page_drag: crate::pages::PageDrag,
     pub page_entries: Vec<[f32; 4]>,
+    /// The visible part of the page list in the last frame, same form.
+    pub page_list: [f32; 4],
     pub messages: Vec<Message>,
     pub banner: Option<String>,
     pub prompt: Option<(Prompt, String)>,
@@ -388,6 +390,7 @@ impl App {
             free_scale: false,
             page_drag: Default::default(),
             page_entries: Vec::new(),
+            page_list: [0.0; 4],
             messages: Vec::new(),
             banner: None,
             prompt: None,

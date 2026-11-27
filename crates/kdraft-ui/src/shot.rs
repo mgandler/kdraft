@@ -455,6 +455,11 @@ pub enum Step {
     DoubleClick(Pos2),
     /// Drag from, to; `hold` keeps the button down (for a shot mid-drag).
     Drag(Pos2, Pos2, bool),
+    /// Primary button down at a point; with `Move` steps and `Release`
+    /// this is a drag in as many frames as the script wants to record.
+    Press(Pos2),
+    /// Primary button up at a point.
+    Release(Pos2),
     Key(egui::Key, Modifiers),
     Text(String),
     /// An engine command.
@@ -513,6 +518,10 @@ pub fn parse_script(text: &str, base: &Path) -> Result<Vec<Step>, String> {
                 p2(a.get(1).ok_or_else(bad)?).ok_or_else(bad)?,
                 o.get("hold").and_then(|h| h.as_bool()).unwrap_or(false),
             )
+        } else if let Some(p) = o.get("press") {
+            Step::Press(p2(p).ok_or_else(bad)?)
+        } else if let Some(p) = o.get("release") {
+            Step::Release(p2(p).ok_or_else(bad)?)
         } else if let Some(k) = o.get("key") {
             let name = k.as_str().ok_or_else(bad)?;
             let key = egui::Key::from_name(name).ok_or_else(bad)?;
@@ -553,6 +562,15 @@ pub fn run_script(app: &mut App, sh: &mut Shooter, steps: &[Step]) -> Result<Vec
             Step::RightClick(p) => sh.click(app, *p, egui::PointerButton::Secondary),
             Step::DoubleClick(p) => sh.double_click(app, *p),
             Step::Drag(a, b, hold) => sh.drag(app, *a, *b, !hold),
+            Step::Press(p) => {
+                sh.move_to(app, *p);
+                sh.button(app, *p, true, egui::PointerButton::Primary);
+            }
+            Step::Release(p) => {
+                sh.move_to(app, *p);
+                sh.button(app, *p, false, egui::PointerButton::Primary);
+                sh.frame(app, Vec::new());
+            }
             Step::Key(k, m) => sh.key(app, *k, *m),
             Step::Text(t) => sh.text(app, t),
             Step::Cmd(c, a) => {
@@ -697,5 +715,17 @@ mod tests {
         assert!(matches!(s[1], Step::Drag(_, _, true)));
         assert!(matches!(&s[2], Step::Key(egui::Key::K, m) if m.ctrl));
         assert!(parse_script(r#"[{"nope":1}]"#, Path::new(".")).is_err());
+    }
+
+    #[test]
+    fn press_and_release_parse() {
+        let s = parse_script(
+            r#"[{"press":[10,20]},{"move":[30,40]},{"release":[30,40]}]"#,
+            Path::new("."),
+        )
+        .unwrap();
+        assert_eq!(s[0], Step::Press(Pos2::new(10.0, 20.0)));
+        assert_eq!(s[2], Step::Release(Pos2::new(30.0, 40.0)));
+        assert!(parse_script(r#"[{"press":[10]}]"#, Path::new(".")).is_err());
     }
 }

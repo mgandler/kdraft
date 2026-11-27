@@ -344,6 +344,45 @@ fn page_entries_click_select_and_drag_reorder() {
     assert_eq!(current(h.state()), c);
 }
 
+/// A page that becomes current by keyboard is scrolled into the visible
+/// part of the page list.
+#[test]
+fn the_current_page_is_scrolled_into_view() {
+    let mut h = harness(session());
+    h.run_steps(3);
+    for _ in 0..8 {
+        h.state_mut().cmd("page.add", serde_json::json!({}));
+    }
+    let first = h.state().s.doc().pages[0].id.0.clone();
+    h.state_mut()
+        .cmd("page.select", serde_json::json!({"page": first}));
+    h.run_steps(4);
+    let inside = |app: &App, i: usize| {
+        let (e, l) = (entry(app, i), app.page_list);
+        e.min.y >= l[1] - 1.0 && e.max.y <= l[3] + 1.0
+    };
+    let last = h.state().s.doc().pages.len() - 1;
+    assert!(inside(h.state(), 0));
+    assert!(
+        !inside(h.state(), last),
+        "the list must be longer than the panel"
+    );
+    for _ in 0..last {
+        h.key_press(egui::Key::PageDown);
+        h.run_steps(3);
+        let c = current(h.state());
+        assert!(inside(h.state(), c), "page {c} is not visible");
+    }
+    assert_eq!(current(h.state()), last);
+    h.key_press(egui::Key::Home);
+    for _ in 0..last {
+        h.key_press(egui::Key::PageUp);
+        h.run_steps(3);
+        assert!(inside(h.state(), current(h.state())));
+    }
+    assert_eq!(current(h.state()), 0);
+}
+
 /// M3 upkeep: toolbar actions disabled when they cannot apply (same rule
 /// as the engine), new view settings in the properties panel, and the new
 /// item kinds (dimensions, notes) get canvas textures.
